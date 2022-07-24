@@ -1,0 +1,56 @@
+body {
+    margin: 0px;
+}
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.left {
+    display: flex;
+}
+
+.navbar > .left > div {
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.navbar-link {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.center {
+    display: flex;
+}
+
+.center > a {
+    color: #999;
+    text-decoration: none;
+    text-transform: uppercase;
+    height: 100px;
+    font-weight: 100;
+    transition: font-weight 0.5s;
+}
+
+
+.navbar-link > a {
+    color: #888;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.navbar-link:hover {
+    border-bottom: 1px solid black;
+}
+
+.navbar-link a:hover {
+    color: black;
+}
