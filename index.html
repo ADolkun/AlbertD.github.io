@@ -11,42 +11,59 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
     <title>Albert Dolkun's Personal Website</title>
+
 <style>
     body {
         background-image: url('images/lake.jpg');
     }
 </style>
+
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <div class="navbar">
-        <div class="left">
-            <a href="index.html">Home</a>
-            <a href="#section-journey">Journey</a>
-            <a href="#section-project">Project</a>
-            <a href="#section-gallery">Gallery</a>
-            <a href="resume.pdf">Resume</a>
+    <nav class="navbar navbar-expand-lg bg-light navbar-light">
+        <div class="container">
+            <a href="index.html" class=navbar-brand>Albert Dolkun</a>
+    
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="#navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#section-journey" class="nav-link">Journey</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#section-project" class="nav-link">Project</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#section-gallery" class="nav-link">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="resume.pdf" class="nav-link">Resume</a>
+                    </li>
+                </ul>
             </div>
-
-        <div class="center">
-            <a href="index.html"><strong>Albert Dolkun</strong></a>
         </div>
+    </nav>
 
-        <div class="right">
-            <a href="https://www.linkedin.com/in/albert-dolkun-2388b1203/" class="icon brands fa-linkedin-in"><span
-                    class="label">LinkedIn</span></a>
-            <a href="https://github.com/ADolkun" class="icon brands fa-github"><span class="label">Github</span></a></li>
-            <a href="mailto:Albertdolkun@berkeley.edu?subject=Contact via personal site " class="icon solid fa-envelope"><span
-                    class="label">Email</span></a>
-            <a href="https://github.com/ADolkun/ADolkun.github.io/blob/main/assets/Resume.pdf" class="icon solid fa-mobile"><span
-                    class="label">Mobile</span></a>
-        </div>
-    </div>
     <h1>Albert Dolkun</h1>
     <p>Programmer &nbsp;&bull;&nbsp; Photographer &nbsp;&bull;&nbsp; Traveller</p>
-    
+    <a href="https://www.linkedin.com/in/albert-dolkun-2388b1203/" class="icon brands fa-linkedin-in"><span
+            class="label">LinkedIn</span></a>
+    <a href="https://github.com/ADolkun" class="icon brands fa-github"><span class="label">Github</span></a>
+    <a href="mailto:Albertdolkun@berkeley.edu?subject=Contact via personal site " class="icon solid fa-envelope"><span
+            class="label">Email</span></a>
+    <a href="https://github.com/ADolkun/ADolkun.github.io/blob/main/assets/Resume.pdf" class="icon solid fa-mobile"><span
+            class="label">Mobile</span></a>
+
     <h2 id="sention-journey">Journey</h2>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae voluptate delectus dicta rem cupiditate iste molestias
         perferendis minus recusandae, ex aliquid! Dolorum inventore aliquid dignissimos, minima at illo pariatur quod, nulla
@@ -128,6 +145,7 @@
         dolore aperiam eligendi rerum omnis delectus alias voluptatem exercitationem repudiandae minima quos ipsa aliquam
         error repellat, aut quo provident natus dolorum saepe. Ipsa.</p>
     <a href="#">Back to top</a>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
